@@ -1,0 +1,26 @@
+✅ Correct commands (for YOUR terminal)
+
+# python environment setup
+
+python -m venv venv
+
+✔️ If using Git Bash (MINGW64)
+
+source venv/Scripts/activate
+
+✔️ If using Command Prompt (cmd)
+
+venv\Scripts\activate
+
+
+✔️ If using PowerShell
+
+venv\Scripts\Activate.ps1
+
+# database commands
+
+alembic revision --autogenerate -m "add users table"
+
+alembic upgrade head
+
+
